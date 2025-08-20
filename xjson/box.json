@@ -1,0 +1,250 @@
+[
+  {
+    "menu": "ph",
+    "ph": "photo",
+    "href": "",
+    "src": "./box_img/pelemele-2.webp",
+    "spText": "Années 1900/2000",
+    "divText": "Toutes les photos de la famille de 1900 à ce jour."
+  },
+  {
+    "menu": "ph",
+    "ph": "carious",
+    "href": "",
+    "src": "./box_img/carious.webp",
+    "spText": "Les Carious",
+    "divText": "Les Carious de 1900 à 2008."
+  },
+  {
+    "menu": "ph",
+    "ph": "a1418",
+    "href": "",
+    "src": "./box_img/avions.webp",
+    "spText": "Guerre 14-18",
+    "divText": "Grand-Père était dans l'aviation durant la guerre de 14/18 comme photographe aérien..."
+  },
+  {
+    "menu": "ph",
+    "ph": "marys",
+    "href": "",
+    "src": "./box_img/marys.webp",
+    "spText": "Les Mary/Achard",
+    "divText": "Les Mary à Nozay. C'était la famille de Maman. Deux photos de l'usine de notre grand-père Achard au Fuilet."
+  },
+  {
+    "menu": "ph",
+    "ph": "gonz",
+    "href": "",
+    "src": "./box_img/gonzague2.webp",
+    "spText": "Gonzague II",
+    "divText": "Gonzague, enseigne de vaisseau vers 1942. Il a passé un an en Écosse avant d'embarquer à St Pierre et Miquelon."
+  },
+  {
+    "menu": "ph",
+    "ph": "amer",
+    "href": "",
+    "src": "./box_img/cousinsus.webp",
+    "spText": "Américains",
+    "divText": "Les photos de nos cousins américains, depuis la venue de Dickie à Lascamps en 1944 jusqu'à 1971..."
+  },
+  {
+    "menu": "ph",
+    "ph": "a0069",
+    "href": "",
+    "src": "./box_img/enfants.webp",
+    "spText": "Années 00/60",
+    "divText": "De Treffry à Lascamps puis au Mimosa..."
+  },
+  {
+    "menu": "ph",
+    "ph": "a7079",
+    "href": "",
+    "src": "./box_img/annees70.webp",
+    "spText": "Années 1970",
+    "divText": "Arrivée de Anne Lise \n                  puis Marie et Eric..."
+  },
+  {
+    "menu": "ph",
+    "ph": "a8089",
+    "href": "",
+    "src": "./box_img/annees80.webp",
+    "spText": "Années 1980",
+    "divText": "Arrivée à Bavent,\n                  naissance de Lise \n                  Déménagement à Hotot"
+  },
+  {
+    "menu": "ph",
+    "ph": "a9099",
+    "href": "",
+    "src": "./box_img/annees90.webp",
+    "spText": "Années 1990",
+    "divText": "Hotot en Auge, \n                  9 mois en Irlande,\n                  \n                  retour à Hotot"
+  },
+  {
+    "menu": "ph",
+    "ph": "a0009",
+    "href": "",
+    "src": "./box_img/annees2000.webp",
+    "spText": "Années 2000",
+    "divText": "Changement de siècle, puis de vie à partir de 2004"
+  },
+  {
+    "menu": "ph",
+    "ph": "a1019",
+    "href": "",
+    "src": "./box_img/annees2010.webp",
+    "spText": "Années 2010",
+    "divText": "Keriskin, Saint Nazaire, avec Margot"
+  },
+  {
+    "menu": "ph",
+    "ph": "a2029",
+    "href": "",
+    "src": "./box_img/annees2020.webp",
+    "spText": "Années 2020",
+    "divText": "Le Covid, mort des parents, la vie continue..."
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://zagou29.github.io/",
+    "src": "./box_img/annees90.webp",
+    "spText": "Zag Vidéos",
+    "divText": "Mon premier site Web, avec des playlists vidéos."
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://marzagfamily.blogspot.com/",
+    "src": "./box_img/zagfamily.webp",
+    "spText": "Zag Family",
+    "divText": "Toutes les vidéos/diapos de la famille jusqu'en 2007"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://marzagou.blogspot.com/",
+    "src": "./box_img/famille-23.webp",
+    "spText": "Marzablog",
+    "divText": "Les vidéos et diapos à partir de 2008 avec Gonzague et Margot."
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://marzavoyages.blogspot.com/",
+    "src": "./box_img/portugal.webp",
+    "spText": "Voyages Marzagou",
+    "divText": "Tous mes voyages avant et avec Margot"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://zagfrsd.blogspot.com/",
+    "src": "./box_img/france.webp",
+    "spText": "France",
+    "divText": "Toutes nos périgrinations à travers la France depuis 2009."
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://zagirlande.blogspot.com/",
+    "src": "./box_img/irlande.webp",
+    "spText": "Irlande & UK",
+    "divText": "En Irlande et UK avec Margot"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://greekbale.blogspot.com/",
+    "src": "./box_img/grece.webp",
+    "spText": "Grece",
+    "divText": "En bateau avec nos amis en Grece, Ecosse, Baleares"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://zagsentvid.blogspot.com/",
+    "src": "./box_img/antilles.webp",
+    "spText": "Antilles",
+    "divText": "La Martinique et Saint Martin"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://zagameric.blogspot.com/",
+    "src": "./box_img/usa.webp",
+    "spText": "Usa Quebec",
+    "divText": "Notre traversée des USA en 2010 et Usa/Quebec en 2011 avec Dom et Bea"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://randomex18.blogspot.com/",
+    "src": "./box_img/mexique-2.webp",
+    "spText": "Mexique",
+    "divText": "Mexique :2002 Margot, 2006 Gonzague, ensemble 2018"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://chine2013.blogspot.com/",
+    "src": "./box_img/chine-box.webp",
+    "spText": "Chine",
+    "divText": "Chine 2013 avec Ming Hong"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://randovietnam2017.blogspot.com/",
+    "src": "./box_img/vietnam-2.webp",
+    "spText": "Vietnam",
+    "divText": "Vietnam 2017 avec Mado et Michel"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://mariehelenepb.blogspot.com/",
+    "src": "./box_img/paysbas.webp",
+    "spText": "Pays Bas",
+    "divText": "Visite chez Marie Hélène"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://voyagesiut.blogspot.com/",
+    "src": "./box_img/mexique-margot.webp",
+    "spText": "Voyages Margot",
+    "divText": "Voyages de Margot avec l'IUT Inde 2001, Mexique 2002"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://cariousebalp.blogspot.com/",
+    "src": "./box_img/carious.webp",
+    "spText": "Carious",
+    "divText": "Les videos de la famille Carious"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://100ansyc.blogspot.com/",
+    "src": "./box_img/100ans.webp",
+    "spText": "100 ans",
+    "divText": "L'anniversaire des 100ans de Mum Cariou en 2020"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://krcnds.blogspot.com/",
+    "src": "./box_img/kerichen.webp",
+    "spText": "Kerichen",
+    "divText": "Les retrouvailles annuelles des ex-Kerichens depuis 2013"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://zagadidis.blogspot.com/",
+    "src": "./box_img/didis.webp",
+    "spText": "Les Didi's",
+    "divText": "Les visites des Didiers"
+  }
+]
