@@ -132,10 +132,10 @@ const ecoute_barre = (e) => {
  * @param {string} tempId Identifiant pour iframe ou miniature
  * @returns {number} Nombre de vidéos affichées
  */
-const afficheLiens = (param, year, tempId) => {
-  if (!param || !state.vidClass) return 0;
+const afficheLiens = (clas, year, tempId) => {
+  if (!clas || !state.vidClass) return 0;
   dom.ecVideos.replaceChildren();
-  state.vidClass.affVideos(dom.ecVideos, param, year, tempId);
+  state.vidClass.affVideos(dom.ecVideos, clas, year, tempId);
   //si une seule video, on ne fait rien
   const nbVideos = state.vidClass.retourVideo.length || 0;
   state.videoObserver.disconnect();
