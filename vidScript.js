@@ -127,15 +127,15 @@ const ecoute_barre = (e) => {
 
 /**
  * Affiche les vidéos selon les paramètres et les années.
- * @param {string} param Classe combinée et type (vidéo/diapo)
+ * @param {string} classe Classe combinée et type (vidéo/diapo)
  * @param {string} year Année (optionnel)
  * @param {string} tempId Identifiant pour iframe ou miniature
  * @returns {number} Nombre de vidéos affichées
  */
-const afficheLiens = (clas, year, tempId) => {
-  if (!clas || !state.vidClass) return 0;
+const afficheLiens = (classe, year, tempId) => {
+  if (!classe || !state.vidClass) return 0;
   dom.ecVideos.replaceChildren();
-  state.vidClass.affVideos(dom.ecVideos, clas, year, tempId);
+  state.vidClass.affVideos(dom.ecVideos, classe, year, tempId);
   //si une seule video, on ne fait rien
   const nbVideos = state.vidClass.retourVideo.length || 0;
   state.videoObserver.disconnect();
