@@ -44,29 +44,6 @@ const scrollModule = (() => {
 const setHeight = (element, height) => {
   element.style.height = height;
 };
-/**
- * Détermine le type (vidéo/diapo) en fonction de deux checkboxes.
- * @param {HTMLElement} box1
- * @param {HTMLElement} box2
- * @returns {string} 'non', '' ou la valeur de la case cochée
- */
-const typeb = (box1, box2) => {
-  if (box1.checked && box2.checked) return "";
-  if (box1.checked) return box1.value;
-  if (box2.checked) return box2.value;
-  return "non";
-};
-/**
- * Renvoie le type associé au menu (vidéo ou diapos)
- * @param {HTMLElement} el Élément de menu Voy ou Pll
- * @returns {string}
- */
-const typeVid = (el) => {
-  if (!el) return "";
-  const adiapo = el.querySelector(SELECTORS.adiapo);
-  const avideo = el.querySelector(SELECTORS.avideo);
-  return adiapo ? typeb(adiapo, avideo) : "";
-};
 
 /**
  * Afficher ou masquer le bouton "Retour au début de page"
@@ -156,9 +133,9 @@ const aff_Videos = (e) => {
   const activeMenu = dom.menu.querySelector(".activeMenu");
   if (!activeMenu) return;
   const spanChoisi = e.target;
-  const type = typeVid(activeMenu.parentElement);
-  //videotype = .voy.amer.usa ou .vid.ann ou .dia.ann ou .ann
-  const videoType = `${type}${spanChoisi.dataset.select}`;
+  //videotype = .voy.amer.usa ou .ann
+  const videoType = `${spanChoisi.dataset.select}`;
+  //year = 2020
   const year = spanChoisi.dataset.year ? `${spanChoisi.dataset.year}` : "";
   const tempId =
     mob().mob || videoType.includes(".pll") ? "ytFrame" : "ytThumb";
