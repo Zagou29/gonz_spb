@@ -40,26 +40,13 @@
 }
 
 /* Sous menus des dropdown */
-.sousMenuAnn {
-  display: grid;
- /*  grid-template-areas:
-/*     "a1 a1" */
- /*   "ba"; */
-  padding: 1rem;
-}
 
 .sousMenuBlog {
   padding: 0.5rem;
 }
 
-.sousMenuVoy > ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .years {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  padding:1rem;
+  padding: 1rem;
 }
