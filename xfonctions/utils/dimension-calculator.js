@@ -14,7 +14,6 @@ export class DimensionCalculator {
     if (!conteneur || !video) {
       return [0, 0]; // Valeurs par défaut en cas d'erreur
     }
-
     const dimensions = this.#getContainerDimensions(conteneur);
     const ratioImage = this.#getImageRatio(video);
 

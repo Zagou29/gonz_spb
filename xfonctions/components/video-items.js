@@ -3,7 +3,7 @@ import { VIDEO_CONFIG } from "../config/video-config.js";
 
 /**
  * Crée un élément miniature ou iframe de vidéo
- */
+ */ 
 export class VidItem {
   /** @type {string} - ID du template à utiliser */
   #tempId;

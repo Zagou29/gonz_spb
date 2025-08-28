@@ -32,7 +32,6 @@ export const VIDEO_CONFIG = {
     THUMB_QUALITY: "maxresdefault.jpg",
   },
 };
-
 /**
  * Définition d'un objet vidéo
  * @typedef {object} VideoItem
