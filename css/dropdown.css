@@ -1,0 +1,52 @@
+/* Containers dropdown pour les sous menus */
+.dropdown {
+  position: absolute;
+  border-radius: 5px;
+  overflow: auto;
+  top: calc(var(--menu-height) + 2px);
+  cursor: default;
+  font-size: var(--font-size-dropdown);
+  background-color: rgba(238, 235, 227, 0.5);
+  backdrop-filter: blur(2px);
+  max-height: calc(100vh - var(--menu-height) - 15px);
+  z-index: 2;
+  box-shadow: 5px 5px 5px #00000066;
+}
+
+.decal {
+  left: 1rem;
+  width: calc(100vw - 2rem);
+}
+
+.bloc-links {
+  display: flex;
+  height: 0;
+  transition: height var(--transition-duration) ease-in-out;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.bloc-links li {
+  padding: 2px 5px;
+  list-style-type: none;
+  width: auto;
+}
+
+.bloc-links li:hover {
+  cursor: pointer;
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+/* Sous menus des dropdown */
+
+.sousMenuBlog {
+  padding: 0.5rem;
+}
+
+.years {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 1rem;
+}
