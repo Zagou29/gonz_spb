@@ -3,6 +3,10 @@ import { VidItem, BarItem, AnnItem } from "./components/video-items.js";
 import { DimensionCalculator } from "./utils/dimension-calculator.js";
 
 /**
+ * @typedef {import("./config/video-config.js").VideoItem} VideoItem
+ */
+
+/**
  * Gère l'affichage des vidéos et des miniatures YouTube
  */
 export class Affvid {
@@ -37,7 +41,7 @@ export class Affvid {
 
   /**
    * Initialise le gestionnaire de vidéos
-   * @param {ideoItem[]} vidlist - Liste des objets vidéo
+   * @param {VideoItem[]} vidlist - Liste des objets vidéo
    * @throws {TypeError} Si vidlist n'est pas un tableau
    */
   constructor(vidlist) {

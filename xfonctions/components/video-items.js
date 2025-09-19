@@ -1,6 +1,8 @@
 import { cloneTemplate } from "../dom.js";
 import { VIDEO_CONFIG } from "../config/video-config.js";
-
+ /**
+ * @typedef {import("./config/video-config.js").VideoItem} VideoItem
+ */
 /**
  * Crée un élément miniature ou iframe de vidéo
  */ 
