@@ -246,5 +246,13 @@
     "src": "./box_img/didis.webp",
     "spText": "Les Didi's",
     "divText": "Les visites des Didiers"
+  },
+  {
+    "menu": "bl",
+    "ph": "",
+    "href": "https://greekbale.blogspot.com",
+    "src": "./box_img/voyamis.webp",
+    "spText": "Grèces, Baléares et Trimarans",
+    "divText": "Les voyages en Grèce, Baléares et autres en trimaran avec nos amis"
   }
 ]
